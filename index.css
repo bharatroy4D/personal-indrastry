@@ -123,27 +123,65 @@ body {
 }
 
 .document-box {
-    display: flex;
-    gap: 30px;
     background-color: #252B42;
+}
+.box-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
 }
 
 .box-icon {
-    border: 2px solid;
     text-align: center;
     padding: 40px 45px;
     margin: 96px 0px;
+    width: 324px;
 
 }
 
 .box-icon img {
     width: 72px;
 }
-.box-icon h3{
+
+.box-icon h3 {
     font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+.box-icon p {
+    font-size: 14px;
+    font-size: 300;
+    color: #FFFFFF;
+}
+.industry-container{
+    background-color: #8EC2F2;
+
+}
+.industry-content{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 112px 0;
+
+}
+.industry-content h2{
+    font-size: 40px;
     font-weight: bold;
     color: #FFFFFF;
 }
-.box-icon p{
-
+.industry-content p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    color: #FFFFFF;
+    margin-bottom: 100px;
+}
+.person-card{
+    display: flex;
+    gap: 100px;
 }
