@@ -10,14 +10,15 @@ body {
     box-sizing: border-box;
 }
 
+
 /* NAV content start */
-.nav-content-holder{
-    position: relative;
+.nav-content-holder {
+    /* position: relative; */
     width: 100%;
     margin: auto;
 }
 
-.background{
+.background {
     background-image: url('images/filter.png');
     background-size: cover;
     min-height: 550px;
@@ -25,8 +26,9 @@ body {
     position: absolute;
     z-index: 5;
     width: 100%;
-    
+
 }
+
 .nav-content {
     display: flex;
     justify-content: space-between;
@@ -35,6 +37,7 @@ body {
     margin: auto;
     padding-top: 17px;
 }
+
 .nav-content h1 {
     color: #FFFFFF;
 }
@@ -43,6 +46,7 @@ body {
     display: flex;
     gap: 21px;
 }
+
 .nav-manus li {
     list-style: none;
     font-size: 14px;
@@ -50,14 +54,17 @@ body {
     color: #FFFFFF;
 
 }
-.bg-shadow{
-    position: absolute;
+
+.bg-shadow {
+    position: relative;
     z-index: 2;
 }
-.bg-shadow img{
-    width: 1250px;
+
+.bg-shadow img {
+    width: 1260px;
     height: 550px;
 }
+
 .primary-btn {
     padding: 15px;
     font-size: 14px;
@@ -67,7 +74,8 @@ body {
     border-radius: 5px;
     border: none;
 }
-.hero-content{
+
+.hero-content {
     display: flex;
     font-display: flex;
     flex-direction: column;
@@ -76,21 +84,25 @@ body {
     margin: auto;
     padding-top: 125px;
 }
-.hero-title{
+
+.hero-title {
     font-size: 40px;
-    font-weight:bold;
+    font-weight: bold;
     color: #FFFFFF;
 }
-.hero-para{
+
+.hero-para {
     font-size: 20px;
-    font-weight:300;
+    font-weight: 300;
     color: #FFFFFF;
 }
-.hero-button{
+
+.hero-button {
     display: flex;
     gap: 10px;
 }
-.second-btn{
+
+.second-btn {
     font-size: 14px;
     font-weight: bold;
     color: #FFFFFF;
@@ -99,7 +111,8 @@ body {
     border-radius: 35px;
     border: none;
 }
-.second-btn-uniqe{
+
+.second-btn-unique {
     font-size: 14px;
     font-weight: bold;
     color: #FFFFFF;
@@ -109,4 +122,28 @@ body {
     border: 1px solid;
 }
 
+.document-box {
+    display: flex;
+    gap: 30px;
+    background-color: #252B42;
+}
 
+.box-icon {
+    border: 2px solid;
+    text-align: center;
+    padding: 40px 45px;
+    margin: 96px 0px;
+
+}
+
+.box-icon img {
+    width: 72px;
+}
+.box-icon h3{
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.box-icon p{
+
+}
