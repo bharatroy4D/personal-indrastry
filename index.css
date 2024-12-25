@@ -102,10 +102,11 @@ body {
 .second-btn-uniqe{
     font-size: 14px;
     font-weight: bold;
-    /* color: #FFFFFF; */
+    color: #FFFFFF;
+    background-color: transparent;
     padding: 15px 36px;
     border-radius: 37px;
-    border: none;
+    border: 1px solid;
 }
 
 
