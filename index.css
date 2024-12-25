@@ -125,7 +125,8 @@ body {
 .document-box {
     background-color: #252B42;
 }
-.box-content{
+
+.box-content {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -157,31 +158,156 @@ body {
     font-size: 300;
     color: #FFFFFF;
 }
-.industry-container{
+
+.industry-container {
     background-color: #8EC2F2;
 
 }
-.industry-content{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 112px 0;
+
+.industry-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    position: relative;
 
 }
-.industry-content h2{
+
+.industry-content h2 {
     font-size: 40px;
     font-weight: bold;
     color: #FFFFFF;
 }
-.industry-content p{
+
+.industry-content p {
     text-align: center;
     font-size: 14px;
     font-weight: 300;
     color: #FFFFFF;
-    margin-bottom: 100px;
+    margin-bottom: 90px;
 }
-.person-card{
+
+.person-card {
     display: flex;
     gap: 100px;
+}
+
+.regina-icon {
+
+    position: absolute;
+    top: 330px;
+    left: 100px;
+}
+
+.regina-icon img {
+    width: 70px;
+}
+
+/* Industry-2-section */
+
+.industry-2-section {
+    background-color: #252B42;
+
+}
+
+.industry-2-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.industry h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.industry p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    color: #FFFFFF;
+    margin-bottom: 90px;
+}
+
+.industry-2-card {
+    display: flex;
+}
+
+.bg-img {
+    background-image: url('/images/media\ bg-cover\ \(3\).png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    margin-left: 14px;
+
+}
+
+.bg-img p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #FFFFFF;
+    margin: 20px 20px;
+    text-align: start;
+
+}
+
+.cart-btn {
+    width: 100%;
+
+
+}
+
+.btn-2 {
+    margin-bottom: 45px;
+    margin-left: 15px;
+}
+.bg-container{
+    background-image: url('/images/appointment-background\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    border: 2px solid;
+}
+.bg-content h4{
+    font-size: 16px;
+    font-weight: bold;
+    color: #252B42;
+}
+.bg-content h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #252B42;
+    padding-top: 12px;
+    padding-bottom: 22px;
+}
+.input-container{
+    width: 80%;
+    margin: auto;
+    
+}
+.input-field{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.input-field input{
+    padding: 6px;
+    width: 270px;
+}
+.massage{
+    width: 559px;
+    height: 150px;
 }
