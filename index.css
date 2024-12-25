@@ -64,6 +64,7 @@ body {
     font-weight: bold;
     color: #FFFFFF;
     background-color: #23A6F0;
+    border-radius: 5px;
     border: none;
 }
 .hero-content{
@@ -73,8 +74,38 @@ body {
     gap: 35px;
     width: 80%;
     margin: auto;
-    border: 2px solid blue;
     padding-top: 125px;
-
 }
+.hero-title{
+    font-size: 40px;
+    font-weight:bold;
+    color: #FFFFFF;
+}
+.hero-para{
+    font-size: 20px;
+    font-weight:300;
+    color: #FFFFFF;
+}
+.hero-button{
+    display: flex;
+    gap: 10px;
+}
+.second-btn{
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #23A6F0;
+    padding: 15px 36px;
+    border-radius: 35px;
+    border: none;
+}
+.second-btn-uniqe{
+    font-size: 14px;
+    font-weight: bold;
+    /* color: #FFFFFF; */
+    padding: 15px 36px;
+    border-radius: 37px;
+    border: none;
+}
+
 
